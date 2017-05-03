@@ -68,8 +68,9 @@ $(document).ready(function(){
     //     }
     // });
 
-    $('hide-menu').click( function () {
-        $('portfolio-filtr').toggle(1000);
+    $("hide-menu").click( function () {
+        $('portfolio-filtr').hide();
+
     });
 
 });

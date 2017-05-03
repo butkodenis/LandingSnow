@@ -1300,12 +1300,12 @@ header a i {
   font-size: 40px;
 }
 
-/* line 2, ../sass/layout/partials/_portfolio.scss */
+/* line 3, ../sass/layout/partials/_portfolio.scss */
 .porfolio .row {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 10, ../sass/layout/partials/_portfolio.scss */
+/* line 11, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block {
   margin: 0 -15px 0 -15px;
   overflow: hidden;
@@ -1313,12 +1313,12 @@ header a i {
   text-align: center;
   cursor: default;
 }
-/* line 18, ../sass/layout/partials/_portfolio.scss */
+/* line 19, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block img {
   width: 100%;
   height: 100%;
 }
-/* line 23, ../sass/layout/partials/_portfolio.scss */
+/* line 24, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block .mask, .porfolio .portfolio-block .content {
   width: 100%;
   height: 100%;
@@ -1327,14 +1327,14 @@ header a i {
   top: 0;
   left: 0;
 }
-/* line 31, ../sass/layout/partials/_portfolio.scss */
+/* line 32, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block img {
   width: 100%;
   height: 100%;
   display: block;
   position: relative;
 }
-/* line 37, ../sass/layout/partials/_portfolio.scss */
+/* line 38, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block h2 {
   text-transform: uppercase;
   color: #fff;
@@ -1343,7 +1343,7 @@ header a i {
   font-size: 17px;
   margin: 100px 0 0 0;
 }
-/* line 47, ../sass/layout/partials/_portfolio.scss */
+/* line 48, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block p {
   font-size: 14px;
   position: relative;
@@ -1352,54 +1352,59 @@ header a i {
   padding: 30px 20px 20px;
   text-align: center;
 }
-/* line 55, ../sass/layout/partials/_portfolio.scss */
+/* line 56, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info img {
   transition: all 0.2s linear;
 }
-/* line 58, ../sass/layout/partials/_portfolio.scss */
+/* line 59, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info .mask {
   opacity: 0;
   background-color: rgba(0, 0, 8, 0.6);
   transition: all 0.4s ease-in-out;
 }
-/* line 63, ../sass/layout/partials/_portfolio.scss */
+/* line 64, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info p, .porfolio .portfolio-block_info h2 {
   transform: translateY(100px);
   opacity: 0;
   transition: all 0.2s linear;
 }
-/* line 68, ../sass/layout/partials/_portfolio.scss */
+/* line 69, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info a.info {
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
-/* line 75, ../sass/layout/partials/_portfolio.scss */
+/* line 76, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info:hover .mask {
   opacity: 1;
 }
-/* line 78, ../sass/layout/partials/_portfolio.scss */
+/* line 79, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info:hover h2,
 .porfolio .portfolio-block_info:hover p,
 .porfolio .portfolio-block_info:hover a.info {
   opacity: 1;
   transform: translateY(0px);
 }
-/* line 84, ../sass/layout/partials/_portfolio.scss */
+/* line 85, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info:hover p {
   transition-delay: 0.1s;
 }
-/* line 87, ../sass/layout/partials/_portfolio.scss */
+/* line 88, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-block_info:hover a.info {
   transition-delay: 0.2s;
 }
-/* line 92, ../sass/layout/partials/_portfolio.scss */
+/* line 93, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-filtr h6 {
   display: inline-block;
   padding: 5px 17px;
 }
-/* line 97, ../sass/layout/partials/_portfolio.scss */
+/* line 99, ../sass/layout/partials/_portfolio.scss */
 .porfolio .hide-menu {
   margin-top: 80px;
+}
+/* line 101, ../sass/layout/partials/_portfolio.scss */
+.porfolio .hide-menu i {
+  font-size: 30px;
+  color: #000;
 }
 
 /* line 1, ../sass/layout/partials/_aboutus.scss */
