@@ -1392,19 +1392,25 @@ header a i {
 .porfolio .portfolio-block_info:hover a.info {
   transition-delay: 0.2s;
 }
-/* line 93, ../sass/layout/partials/_portfolio.scss */
+/* line 92, ../sass/layout/partials/_portfolio.scss */
+.porfolio .portfolio-filtr {
+  display: none;
+}
+/* line 95, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-filtr h6 {
   display: inline-block;
   padding: 5px 17px;
+  opacity: 0.1;
 }
-/* line 99, ../sass/layout/partials/_portfolio.scss */
+/* line 103, ../sass/layout/partials/_portfolio.scss */
 .porfolio .hide-menu {
   margin-top: 80px;
 }
-/* line 101, ../sass/layout/partials/_portfolio.scss */
+/* line 105, ../sass/layout/partials/_portfolio.scss */
 .porfolio .hide-menu i {
   font-size: 30px;
   color: #000;
+  margin-bottom: 20px;
 }
 
 /* line 1, ../sass/layout/partials/_aboutus.scss */

@@ -68,8 +68,26 @@ $(document).ready(function(){
     //     }
     // });
 
-    $("hide-menu").click( function () {
-        $('portfolio-filtr').hide();
+    $(".hide-menu").click( function () {
+        $(".portfolio-filtr").slideToggle("slow");
+        $("#filtr-all").animate({
+            opacity: '0.99'
+        }, 1300);
+        $("#filtr-1").animate({
+            opacity: '0.99'
+        }, 1600);
+        $("#filtr-2").animate({
+            opacity: '0.99'
+        }, 2000);
+        $("#filtr-3").animate({
+            opacity: '0.99'
+        }, 2400);
+        $("#filtr-4").animate({
+            opacity: '0.99'
+        }, 2800);
+        $("#filtr-5").animate({
+            opacity: '0.99'
+        }, 3200);
 
     });
 
