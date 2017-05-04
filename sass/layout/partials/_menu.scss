@@ -1,5 +1,6 @@
 nav {
   padding: 15px 0 0 0;
+
 }
 
 .nav  li  a {
@@ -8,4 +9,9 @@ nav {
   color: $color-base;
   text-transform: uppercase;
 
+}
+.navbar-brand {
+  img {
+    height: 31px;
+  }
 }
