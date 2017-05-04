@@ -9,29 +9,38 @@
   h2,h6 {
     text-align: center;
   }
-  h6{
-    position: absolute;
-    bottom: 30px;
-    left: 10px;
-    margin: 0;
-    padding: 5px;
-    background-color: rgba(12, 12, 12, 0.6);
-    color: #fff;
-  }
-  .blog-info{
-    margin-left: 30px;
-    h6{
-      position: relative;
-    }
-  }
+
+
   a{
     position: relative;
     color: #4a3030;
+    h6{
+      position: absolute;
+      bottom: 30px;
+      left: 10px;
+      margin: 0;
+      padding: 5px;
+      background-color: rgba(12, 12, 12, 0.6);
+      color: #fff;
+    }
   }
   .img-tag{
     position: absolute;
     left: 15px;
     /* right: 20px; */
     bottom: -17px;
+  }
+  .post-info{
+    margin: 0 20px 0 20px;
+    >a{
+      text-decoration: none;
+    }
+    h2,h6, {
+      position: relative;
+
+    }
+    h2,h6,a {
+      text-align: left;
+    }
   }
 }

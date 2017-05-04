@@ -73,11 +73,16 @@ p {
 }
 
 /* line 43, ../sass/layout/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 46, ../sass/layout/_base.scss */
 .fix {
   background-color: #fff;
   color: #8a6d3b;
 }
-/* line 46, ../sass/layout/_base.scss */
+/* line 49, ../sass/layout/_base.scss */
 .fix img {
   height: 31px;
 }
@@ -1712,8 +1717,13 @@ footer .social > a {
 .blog-post h2, .blog-post h6 {
   text-align: center;
 }
-/* line 12, ../sass/layout/partials/_blog.scss */
-.blog-post h6 {
+/* line 14, ../sass/layout/partials/_blog.scss */
+.blog-post a {
+  position: relative;
+  color: #4a3030;
+}
+/* line 17, ../sass/layout/partials/_blog.scss */
+.blog-post a h6 {
   position: absolute;
   bottom: 30px;
   left: 10px;
@@ -1722,25 +1732,28 @@ footer .social > a {
   background-color: rgba(12, 12, 12, 0.6);
   color: #fff;
 }
-/* line 21, ../sass/layout/partials/_blog.scss */
-.blog-post .blog-info {
-  margin-left: 30px;
-}
-/* line 23, ../sass/layout/partials/_blog.scss */
-.blog-post .blog-info h6 {
-  position: relative;
-}
 /* line 27, ../sass/layout/partials/_blog.scss */
-.blog-post a {
-  position: relative;
-  color: #4a3030;
-}
-/* line 31, ../sass/layout/partials/_blog.scss */
 .blog-post .img-tag {
   position: absolute;
   left: 15px;
   /* right: 20px; */
   bottom: -17px;
+}
+/* line 33, ../sass/layout/partials/_blog.scss */
+.blog-post .post-info {
+  margin: 0 20px 0 20px;
+}
+/* line 35, ../sass/layout/partials/_blog.scss */
+.blog-post .post-info > a {
+  text-decoration: none;
+}
+/* line 38, ../sass/layout/partials/_blog.scss */
+.blog-post .post-info h2, .blog-post .post-info h6 {
+  position: relative;
+}
+/* line 42, ../sass/layout/partials/_blog.scss */
+.blog-post .post-info h2, .blog-post .post-info h6, .blog-post .post-info a {
+  text-align: left;
 }
 
 @media all and (max-width: 767px) {
