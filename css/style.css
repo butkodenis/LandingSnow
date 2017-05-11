@@ -87,6 +87,11 @@ a {
   height: 31px;
 }
 
+/* line 56, ../sass/layout/_base.scss */
+.fix .nav > li > a:hover {
+  color: #000;
+}
+
 /* line 1, ../sass/layout/_grid.scss */
 .container {
   margin-right: auto;
@@ -1266,20 +1271,45 @@ a {
 }
 /* line 1, ../sass/layout/partials/_menu.scss */
 nav {
-  padding: 15px 0 0 0;
+  padding: 25px 0 0 0;
+  height: 100px;
 }
 
-/* line 6, ../sass/layout/partials/_menu.scss */
-.nav li a {
+/* line 7, ../sass/layout/partials/_menu.scss */
+.nav > li > a {
   font-size: 14px;
   font-family: Work Sans Bold, sans-serif;
-  color: #5f5f5f;
+  color: #bfbfbf;
   text-transform: uppercase;
 }
 
-/* line 14, ../sass/layout/partials/_menu.scss */
+/* line 15, ../sass/layout/partials/_menu.scss */
+.navbar-brand {
+  padding: 10px 15px;
+}
+/* line 16, ../sass/layout/partials/_menu.scss */
 .navbar-brand img {
   height: 31px;
+}
+
+/* line 21, ../sass/layout/partials/_menu.scss */
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* line 25, ../sass/layout/partials/_menu.scss */
+.navbar-toggle {
+  background-color: #bfbfbf;
+}
+/* line 27, ../sass/layout/partials/_menu.scss */
+.navbar-toggle .icon-bar {
+  background-color: #000;
+  height: 1px;
+}
+/* line 31, ../sass/layout/partials/_menu.scss */
+.navbar-toggle .nav > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* line 1, ../sass/layout/partials/_haeder.scss */
@@ -1310,7 +1340,7 @@ header a {
   height: 40px;
   border: 2px solid #fff;
   border-radius: 50%;
-  padding-top: 5px;
+  padding-top: 11px;
   top: 80vh;
   left: 50%;
 }
@@ -1429,7 +1459,7 @@ header a i {
 /* line 105, ../sass/layout/partials/_portfolio.scss */
 .porfolio .hide-menu i {
   font-size: 30px;
-  color: #000;
+  color: #5f5f5f;
   margin-bottom: 20px;
 }
 /* line 112, ../sass/layout/partials/_portfolio.scss */
@@ -1519,7 +1549,7 @@ header a i {
   text-align: center;
   position: relative;
   font-size: 17px;
-  margin: 150px 0 0 0;
+  margin: 45% 0 0 0;
 }
 /* line 56, ../sass/layout/partials/_best-project.scss */
 .best-project .portfolio-block p {
@@ -1537,7 +1567,7 @@ header a i {
 /* line 67, ../sass/layout/partials/_best-project.scss */
 .best-project .portfolio-block_info .mask {
   opacity: 0;
-  background-color: rgba(0, 0, 8, 0.6);
+  background-color: rgba(0, 0, 8, 0.8);
   transition: all 0.4s ease-in-out;
 }
 /* line 72, ../sass/layout/partials/_best-project.scss */
@@ -1616,37 +1646,49 @@ header a i {
   width: 100%;
 }
 
-/* line 2, ../sass/layout/partials/_latest-blog.scss */
+/* line 1, ../sass/layout/partials/_latest-blog.scss */
+.latest-blog {
+  padding-bottom: 40px;
+}
+/* line 3, ../sass/layout/partials/_latest-blog.scss */
 .latest-blog p {
   margin: 0 0 50px 0;
 }
-/* line 5, ../sass/layout/partials/_latest-blog.scss */
+/* line 6, ../sass/layout/partials/_latest-blog.scss */
 .latest-blog .latest-blog-block_slider {
   margin: 0 15px 0 15px;
   position: relative;
 }
-/* line 9, ../sass/layout/partials/_latest-blog.scss */
+/* line 10, ../sass/layout/partials/_latest-blog.scss */
 .latest-blog .latest-blog-block_slider-img {
   position: relative;
 }
-/* line 11, ../sass/layout/partials/_latest-blog.scss */
+/* line 12, ../sass/layout/partials/_latest-blog.scss */
 .latest-blog .latest-blog-block_slider-img img {
   width: 100%;
 }
-/* line 15, ../sass/layout/partials/_latest-blog.scss */
+/* line 16, ../sass/layout/partials/_latest-blog.scss */
 .latest-blog .latest-blog-block_slider-img h6 {
   position: absolute;
   bottom: 10px;
   left: 10px;
   margin: 0;
   padding: 5px;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: rgba(12, 12, 12, 0.9);
   color: #fff;
 }
-/* line 34, ../sass/layout/partials/_latest-blog.scss */
+/* line 35, ../sass/layout/partials/_latest-blog.scss */
 .latest-blog .latest-blog-block_slider-content {
   text-align: left;
   padding: 15px;
+}
+/* line 39, ../sass/layout/partials/_latest-blog.scss */
+.latest-blog .owl-theme .owl-nav {
+  display: none;
+}
+/* line 42, ../sass/layout/partials/_latest-blog.scss */
+.latest-blog .owl-theme .owl-nav .owl-dots {
+  display: block;
 }
 
 /* line 3, ../sass/layout/partials/_contact.scss */

@@ -1,4 +1,5 @@
 .latest-blog {
+  padding-bottom: 40px;
   p {
     margin: 0 0 50px 0 ;
   }
@@ -18,7 +19,7 @@
       left: 10px;
       margin: 0;
       padding: 5px;
-      background-color: rgba(12, 12, 12, 0.6);
+      background-color: rgba(12, 12, 12, 0.9);
       color: $white;
     }
     //.img-tag {
@@ -35,4 +36,11 @@
     text-align: left;
     padding: 15px;
   }
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  .owl-theme .owl-nav .owl-dots  {
+    display: block;
+  }
+
 }

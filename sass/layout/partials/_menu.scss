@@ -1,17 +1,34 @@
 nav {
-  padding: 15px 0 0 0;
+  padding: 25px 0 0 0;
+  height: 100px;
 
 }
 
-.nav  li  a {
+.nav > li > a {
   font-size: 14px;
   font-family:  Work Sans Bold, sans-serif;
-  color: $color-base;
+  color: $color-nav;
   text-transform: uppercase;
 
 }
+
 .navbar-brand {
   img {
     height: 31px;
+  }
+  padding: 10px 15px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(0,0,0, 0);
+  color: $white;
+}
+.navbar-toggle {
+  background-color: $color-nav ;
+  .icon-bar{
+    background-color: $black;
+    height: 1px;
+  }
+  .nav>li>a:hover {
+    background-color: rgba(0,0,0, 0.5);
   }
 }
