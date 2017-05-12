@@ -56,3 +56,17 @@ a {
 .fix .nav>li>a:hover{
   color: $black;
 }
+
+.fix_nav {
+  background-color: $white;
+  color: #8a6d3b;
+  img {
+    height: 31px;
+  }
+
+
+}
+
+.fix_nav .nav>li>a:hover{
+  color: $black;
+}

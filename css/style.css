@@ -92,6 +92,21 @@ a {
   color: #000;
 }
 
+/* line 60, ../sass/layout/_base.scss */
+.fix_nav {
+  background-color: #fff;
+  color: #8a6d3b;
+}
+/* line 63, ../sass/layout/_base.scss */
+.fix_nav img {
+  height: 31px;
+}
+
+/* line 70, ../sass/layout/_base.scss */
+.fix_nav .nav > li > a:hover {
+  color: #000;
+}
+
 /* line 1, ../sass/layout/_grid.scss */
 .container {
   margin-right: auto;
@@ -1453,21 +1468,22 @@ header a i {
 }
 /* line 95, ../sass/layout/partials/_portfolio.scss */
 .porfolio .portfolio-filtr h6 {
+  cursor: pointer;
   display: inline-block;
   padding: 5px 17px;
   opacity: 0.1;
 }
-/* line 103, ../sass/layout/partials/_portfolio.scss */
+/* line 104, ../sass/layout/partials/_portfolio.scss */
 .porfolio .hide-menu {
   margin-top: 80px;
 }
-/* line 105, ../sass/layout/partials/_portfolio.scss */
+/* line 106, ../sass/layout/partials/_portfolio.scss */
 .porfolio .hide-menu i {
   font-size: 30px;
   color: #5f5f5f;
   margin-bottom: 20px;
 }
-/* line 112, ../sass/layout/partials/_portfolio.scss */
+/* line 113, ../sass/layout/partials/_portfolio.scss */
 .porfolio #filter-block .mix {
   display: none;
 }
