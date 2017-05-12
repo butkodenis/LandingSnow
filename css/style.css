@@ -1331,6 +1331,10 @@ nav {
 .in {
   background-color: rgba(0, 0, 0, 0.7);
 }
+/* line 39, ../sass/layout/partials/_menu.scss */
+.in .nav > li > a {
+  color: #fff;
+}
 
 /* line 1, ../sass/layout/partials/_haeder.scss */
 header {

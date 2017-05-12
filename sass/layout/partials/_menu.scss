@@ -36,4 +36,10 @@ nav {
 }
 .in {
   background-color: rgba(0,0,0, 0.7);
+  .nav>li>a {
+    color: $white;
+  }
+  .nav>li>a:hover{
+    //color: $color-base;
+  }
 }
