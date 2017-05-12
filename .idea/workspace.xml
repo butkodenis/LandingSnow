@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eee6449-b12a-41ca-b5ba-033a655e31d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/layout/_base.scss" afterPath="$PROJECT_DIR$/sass/layout/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/layout/partials/_portfolio.scss" afterPath="$PROJECT_DIR$/sass/layout/partials/_portfolio.scss" />
-    </list>
+    <list default="true" id="9eee6449-b12a-41ca-b5ba-033a655e31d7" name="Default" comment="" />
     <ignored path="LandingSnow.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -202,12 +196,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494605003044</updated>
-      <workItem from="1494605008783" duration="4172000" />
+      <workItem from="1494605008783" duration="4491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4172000" />
+    <option name="totallyTimeSpent" value="4491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
